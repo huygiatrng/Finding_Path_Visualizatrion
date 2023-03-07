@@ -16,6 +16,12 @@ Once you have Pygame installed, you can run the program by running the following
 python main.py
 </pre>
 
+or
+
+<pre>
+python astar.py
+</pre>
+
 ## Program Description
 
 The program allows you to stimulate the Dijkstra algorithm with randomized obstacles as walls. The client can easily adjust the value of different parameters, such as the resolution, size of the board, obstacle percentage, and positions of the starting and target points.
