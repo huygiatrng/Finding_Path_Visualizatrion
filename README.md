@@ -1,4 +1,4 @@
-# Dijkstra Randomized Visualization
+# Finding Path Visualization
 
 This Python program uses the Pygame library to visualize the Dijkstra and A* algorithms, the most popular algorithms used in pathfinding and graph traversal.
 
