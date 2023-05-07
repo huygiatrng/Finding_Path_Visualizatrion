@@ -45,9 +45,9 @@ def main_menu():
                 mouse_pos = pygame.mouse.get_pos()
                 x, y = width // 2 - button_width // 2, height // 2 - button_height * 3 // 2
                 if x <= mouse_pos[0] <= x + button_width and y <= mouse_pos[1] <= y + button_height:
-                    finding_path(astar)
+                    finding_path(astar, "A* Algorithm")
                 x, y = width // 2 - button_width // 2, height // 2 + button_height // 2
                 if x <= mouse_pos[0] <= x + button_width and y <= mouse_pos[1] <= y + button_height:
-                    finding_path(dijkstra)
+                    finding_path(dijkstra, "Dijkstra Algorithm")
 
 main_menu()
