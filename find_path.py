@@ -5,11 +5,11 @@ from pygameUtil import *
 from algorithms import dijkstra, astar
 
 
-def finding_path(algo):
+def finding_path(algo, title):
     # Set up the game window
     pygame.init()
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
-    pygame.display.set_caption("Finding Path")
+    pygame.display.set_caption(title)
 
     # Define the font
     font = pygame.font.SysFont(None, 30)
